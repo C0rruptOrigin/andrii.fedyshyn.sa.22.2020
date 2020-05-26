@@ -1,0 +1,309 @@
+body {
+	font-family: 'Marck Script', cursive;
+	padding: 0;
+	margin: 0;
+}
+div {
+	box-sizing: border-box;
+}
+
+.wrap
+{
+  margin: 0 auto;
+  width: 75%; /* відступи відносно вікна браузера */
+}
+.header{
+  padding: 1.3em 0em; /* поля навколо тексту */
+}
+.logo{
+  float: left; /* навколо  логотипа */
+}
+.logo a {
+  display: block; /* перетворення в блочний */
+}
+.nav {
+  float: right; /* обтікання логотипа */
+}
+.nav > ul > li {
+  display:inline-block; /* у стрічко-блочний */
+}
+
+.nav > ul > li > a {
+	text-decoration: none;
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	padding: 0.5em 1em;
+	color: #444;
+	-webkit-transition: 0.9s; /* плавний перехід */
+	-moz-transition: 0.9s;
+	-o-transition: 0.9s;
+	transition: 0.9s;
+}
+.nav > ul > li > a:hover {
+  color: #fff;
+  background: #d0a5a5;
+}
+/*_______________________*/
+.main {
+	background: url(../images/first.png) no-repeat;
+	background-size: 100% 100%;
+	margin-top: 3%;
+}
+.text {
+  padding: 14% 0%;
+}
+.text h2 {
+  color: #fff;
+  font-size: 500% ;
+  font-weight: 600;
+  text-align: left;
+  position: relative; /* позиціювання заголовка */
+  margin-top: -140px;
+}
+/*_______________________*/
+.first {
+	margin: 7%;
+	margin-left: 10%;
+}
+.foto1 {
+    margin-top: -8%;
+	float:left;
+	margin-right: 8%;
+}
+.text_first  {
+	margin-top: 20%;
+	font-size: 130%;
+	text-align: left;
+	width: 110%;
+	color: #582400	;
+}
+.text_first p {
+  margin-top:10%;
+  font-size: 140%;
+  text-align: left;
+  font-weight: 200;
+
+}
+/*_______________________*/
+.second {
+	margin: 7%;
+	margin-right: 10%;
+}
+.foto2 {
+	float:right;
+	margin-top: -7%;
+	margin-left: 7%;
+}
+.text_second  {
+	margin-top:67%;
+	font-size: 130%;
+	text-align: left;
+	width: 110%;
+	color: #582400;
+}
+.text_second p {
+  margin-top:10%;
+  font-size: 140%;
+  text-align: left;
+  font-weight: 200;
+}
+/*_______________________*/
+.third {
+	margin: 7%;
+	margin-right: 10%;
+}
+.foto3 {
+	float:left;
+	margin-top: -7%;
+	margin-right: 7%;
+}
+.text_third  {
+	margin-top:50%;
+	font-size: 130%;
+	text-align: left;
+	width: 110%;
+	color: #582400;
+}
+.text_third p {
+  margin-top:10%;
+  font-size: 140%;
+  text-align: left;
+  font-weight: 200;
+}
+/*_______________________*/
+#contact {
+	margin-top: 25%;
+	height: 225px;
+	background-color: #582400;
+}
+#contact h3{
+	color:#fff;
+	font-size: 150%;
+	text-align: left;
+	margin-left: 39%;
+}
+.contact-form input[type="email"] {
+	padding: 10px;
+	display: block;
+	width: 30%;
+	background:#582400;
+	font-size: 0.8125em;
+	float:left;
+	margin-left: 36%;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	border: 2px solid white;
+}
+.contact-form form input[type="submit"]
+{
+	font-family: 'Lato', sans-serif;
+	color:#fff;
+	width: 31.8%;
+	padding: 10px;
+	background: #582400;
+	border: 2px solid white;
+	display: block;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	cursor: pointer;
+	font-size: 1em;
+	text-transform: uppercase;
+	float: left;
+	margin-top: 4%;
+	margin-left: -31.8%;
+}
+/*_______________________*/
+footer {
+   padding: 24px 0;
+}
+.foot {
+   margin-left: 6%;
+   font-size: 18px;
+   line-height: 10px;
+   color: #666d89;
+   text-align: center;
+}
+/*_______________________*/
+.americanoc {
+	margin: 7%;
+	margin-left: 20%;
+}
+.americano {
+    margin-top: -8%;
+	float:left;
+	margin-right: 8%;
+}
+.text_americano  {
+	margin-top:0%;
+	font-size: 130%;
+	text-align: left;
+	width: 110%;
+	color: #582400;
+}
+/*_______________________*/
+.lattec {
+	margin: -20%;
+	margin-left: 45%;
+}
+.latte {
+    margin-top: -8%;
+	float:left;
+	margin-right: 8%;
+}
+.text_latte {
+	margin-top:0%;
+	font-size: 130%;
+	text-align: left;
+	width: 110%;
+	color: #582400;
+}
+/*_______________________*/
+.mochac {
+	margin: 7%;
+	margin-left: 70%;
+}
+.mocha {
+    margin-top: -8%;
+	float:left;
+	margin-right: 8%;
+}
+.text_mocha {
+	margin-top:0%;
+	margin-left:40%;
+	font-size: 130%;
+	text-align: left;
+	width: 110%;
+	color: #582400;
+}
+/*_______________________*/
+.caramel_macchiatoc {
+	margin: -3%;	
+	margin-left: 20%;
+}
+.caramel_macchiato {
+    margin-top: -8%;
+	float:left;
+	margin-right: 8%;
+}
+.text_caramel_macchiato {
+	margin-top:0%;
+	margin-left:-10%;
+	font-size: 130%;
+	text-align: left;
+	width: 110%;
+	color: #582400;
+}
+/*_______________________*/
+.con_pannac {
+	margin: -13%;
+	margin-left: 45%;
+}
+.con_panna {
+    margin-top: -8%;
+	float:left;
+	margin-right: 8%;
+}
+.text_con_panna {
+	margin-top:0%;
+	font-size: 130%;
+	text-align: left;
+	width: 110%;
+	color: #582400;
+}
+/*_______________________*/
+.cappucinoc {
+	margin: -3%;
+	margin-left: 70%;
+}
+.cappucino {
+    margin-top: -8%;
+	float:left;
+	margin-right: 8%;
+}
+.text_cappucino {
+	margin-top:0%;
+	margin-left: 15%;
+	font-size: 130%;
+	text-align: left;
+	width: 110%;
+	color: #582400;
+}
+/*_______________________*/
+.wrap_center {
+	margin: 5%;
+	margin-left: 45%;
+	font-size: 170%;
+	color: #582400;
+}
+/*_______________________*/
+ul.submenu {
+    display: none;
+}
+ul > li:hover > ul.submenu {
+    display: block;
+}
